@@ -10,6 +10,8 @@ end
 get "/" do
   erb :index
 end
+
+
 get '/hey' do
   @session = session
 end
